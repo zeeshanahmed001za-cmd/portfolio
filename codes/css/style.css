@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* fixed left sidebar */
+.left {
+    position: fixed;
+    top: 0;
+    /* right: 50vh; */
+    left: 0;
+    width: 300px;
+    /* fixed width */
+    height: 100vh;
+    /* full height */
+    background-color: #f0f0f0;
+    /* optional */
+    padding: 50px 20px;
+    /* inner spacing */
+    margin-left: auto;
+}
+
+/* right/main content */
+#right {
+    margin-left: 250px;
+    /* leave space for sidebar */
+    padding: 110px;
+    font-size: 3.5vh;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+/* navigation */
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navigation li {
+    margin-bottom: 15px;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.navigation a:hover {
+    color: rgb(119, 119, 121);
+    cursor: pointer;
+    font-size: larger;
+    /* optional */
+}
+
+.brands {
+    display: flex;
+    margin-top: 190px;
+    gap: 10px;
+    /* spacing between icons */
+}
+
+.brands li {
+    list-style: none;
+    display: inline-block;
+}
+
+.brands a {
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+}
+
+.brands a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#contacts a:hover {
+    color: rgb(157, 34, 34);
+}
